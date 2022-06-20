@@ -1,0 +1,94 @@
+
+.fonts3{
+    font-family: 'Nunito Sans', sans-serif !important;
+
+}
+.footer{
+    padding-top: 3%;
+    background-color: #52a4a5;
+    color: white;
+
+}
+.logoFluid{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.pointer {
+    cursor: pointer;
+}
+.navBar{
+    background-color: #52a4a5;
+    color: white;
+}
+
+.bannerDivInicio{
+    height: 40rem;
+    background-image: url("/assets/images/mantenteBanner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 315%;
+}
+.mask-custom-1 {
+    backdrop-filter: blur(15px) !important;
+    background-color: rgba(255, 255, 255, .2) !important;
+    border-radius: 3em;
+    border: 2px solid rgba(255, 255, 255, .1) !important;
+    background-clip: padding-box !important;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03) !important;
+}
+.bgBlue{
+    padding-top: 5%;
+}
+
+  
+@media (max-width: 767px) {
+    .bg-image {
+      height: 1400px !important;
+    }
+}
+
+@media (min-width: 992px) {
+   
+    .bannerDivInicio{
+        height: 43rem;
+    }
+    .footer{
+        /* margin-top: -9%; */
+        padding-bottom: 2%;
+    }
+    
+    
+    .rounded-tr-lg-0 {
+        border-top-right-radius: 0;
+    }
+
+    .rounded-bl-lg-5 {
+        border-bottom-left-radius: 0.5rem;
+    }
+}
+
+@media(max-width:991px){
+    .logoInicioOneClick{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: block !important;
+    }
+    
+    .bannerDivInicio{
+        height: 27rem;
+        background-position: 49% 140%;
+    }
+   
+    .footer{
+        padding-top: 10%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .responsiveMarginCard{
+        margin-top: 5%;
+    }
+}
