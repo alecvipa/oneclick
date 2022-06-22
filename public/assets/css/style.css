@@ -47,6 +47,12 @@
 .valueProp{
     padding: 1%;
 }
+.imageCell{
+    width: 56% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+}
 
   
 @media (max-width: 767px) {
@@ -56,6 +62,11 @@
 }
 
 @media (min-width: 992px) {
+   
+    .contEmpresa{
+        margin-top: -3%;
+        margin-bottom: 3%;
+    }
    
     .bannerDivInicio{
         height: 43rem;
@@ -76,6 +87,13 @@
 }
 
 @media(max-width:991px){
+    .listTextList{
+        margin-left: 4% !important;
+    }
+    .contEmpresa{
+        margin-top: 10%;
+    }
+
     .logoInicioOneClick{
         margin-left: auto !important;
         margin-right: auto !important;
@@ -83,8 +101,9 @@
     }
     
     .bannerDivInicio{
-        height: 27rem;
-        background-position: 49% 140%;
+        height: 35rem;
+        background-position: 49% 5%;
+        background-image: url("/assets/images/oneClickRes.jpg");
     }
    
     .footer{
