@@ -16,6 +16,9 @@
     margin-right: auto;
     
 }
+.font2Rem{
+    font-size: 2rem !important;
+}
 .pointer {
     cursor: pointer;
 }
@@ -31,6 +34,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 25% 315%;
+}
+.computoDiv{
+    height: 19rem;
+    background-image: url("/assets/images/computo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -10%;
 }
 .mask-custom-1 {
     backdrop-filter: blur(15px) !important;
@@ -52,6 +63,12 @@
     margin-left: auto !important;
     margin-right: auto !important;
     display: block !important;
+}
+.paragraphSomos{
+    width: 70% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 1% !important;
 }
 
   
@@ -87,6 +104,11 @@
 }
 
 @media(max-width:991px){
+    .paragraphSomos{
+        width: 100% !important;
+        margin-top: 5% !important;
+    }
+    
     .listTextList{
         margin-left: 4% !important;
     }
