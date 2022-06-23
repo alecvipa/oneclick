@@ -41,7 +41,16 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -10%;
+    margin-top: -7%;
+}
+.limpieza{
+    height: 19rem;
+    background-image: url("/assets/images/limpieza.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -7%;
+
 }
 .mask-custom-1 {
     backdrop-filter: blur(15px) !important;
