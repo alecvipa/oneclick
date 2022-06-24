@@ -35,6 +35,7 @@
     background-size: cover;
     background-position: 25% 315%;
 }
+
 .computoDiv{
     height: 19rem;
     background-image: url("/assets/images/computo.jpg");
@@ -46,6 +47,33 @@
 .limpieza{
     height: 19rem;
     background-image: url("/assets/images/limpieza.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -7%;
+
+}
+.mobiliarioDiv{
+    height: 19rem;
+    background-image: url("/assets/images/mobiliarioparaoficina.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -7%;
+
+}
+.covid{
+    height: 19rem;
+    background-image: url("/assets/images/productosCovid.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -7%;
+
+}
+.papeleria{
+    height: 19rem;
+    background-image: url("/assets/images/papeleria.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -83,7 +111,12 @@
     margin-top: -3%;
     margin-bottom: 2%;
 }
-
+.otrosServices{
+    margin-top: -10%;
+}
+#contacto{
+    margin-top: -5%;
+}
   
 @media (max-width: 767px) {
     .bg-image {
@@ -117,6 +150,15 @@
 }
 
 @media(max-width:991px){
+    .otrosServices{
+        margin-top: -50% !important;
+    }
+    #contacto{
+        margin-top: -25%;
+    }
+    .imageFinal{
+        height: 20rem !important;
+    }
     .paragraphSomos{
         width: 100% !important;
         margin-top: 5% !important;
