@@ -38,7 +38,7 @@
 
 .computoDiv{
     height: 19rem;
-    background-image: url("/assets/images/computo.jpg");
+    background-image: url("/assets/images/computo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,7 +46,7 @@
 }
 .limpieza{
     height: 19rem;
-    background-image: url("/assets/images/limpieza.jpg");
+    background-image: url("/assets/images/limpieza.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,7 +55,7 @@
 }
 .mobiliarioDiv{
     height: 19rem;
-    background-image: url("/assets/images/mobiliarioparaoficina.jpg");
+    background-image: url("/assets/images/mobiliarioparaoficina.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,7 +64,7 @@
 }
 .covid{
     height: 19rem;
-    background-image: url("/assets/images/productosCovid.jpg");
+    background-image: url("/assets/images/productosCovid.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,7 +73,7 @@
 }
 .papeleria{
     height: 19rem;
-    background-image: url("/assets/images/papeleria.jpg");
+    background-image: url("/assets/images/papeleria.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
