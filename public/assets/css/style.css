@@ -28,7 +28,7 @@
 }
 
 .bannerDivInicio{
-    height: 40rem;
+    height: 52rem;
     background-image: url("/assets/images/bannerOneClickInicio.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -89,6 +89,15 @@
     margin-top: -7%;
 
 }
+.tecnoDiv{
+    height: 19rem;
+    background-image: url("/assets/images/tecno.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -7%;
+
+}
 .mask-custom-1 {
     backdrop-filter: blur(15px) !important;
     background-color: rgba(255, 255, 255, .2) !important;
@@ -140,9 +149,7 @@
         margin-bottom: 3%;
     }
    
-    .bannerDivInicio{
-        height: 43rem;
-    }
+    
     .footer{
         /* margin-top: -9%; */
         padding-bottom: 2%;
