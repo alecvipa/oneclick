@@ -3,10 +3,18 @@
     font-family: 'Nunito Sans', sans-serif !important;
 
 }
+.fa-bars{
+    color: white !important;
+}
 .footer{
     padding-top: 3%;
-    background-color: #52a4a5;
+    background-color: #042c5b;
     color: white;
+
+}
+.video1 {
+    height: 100%;
+    width: 100%;
 
 }
 .logoFluid{
@@ -23,8 +31,11 @@
     cursor: pointer;
 }
 .navBar{
-    background-color: #52a4a5;
+    background-color:  #042c5b;
     color: white;
+}
+.visiMisi{
+    margin-top: 4rem !important;
 }
 
 .bannerDivInicio{
@@ -110,8 +121,12 @@
     padding-top: 5%;
     height: 640px;
 }
+.bgBlue2{
+    padding: 3%;
+ 
+}
 .valueProp{
-    padding: 1%;
+    margin-bottom: -6% !important;
 }
 .imageCell{
     width: 56% !important;
@@ -138,11 +153,13 @@
   
 @media (max-width: 767px) {
     .bg-image {
-      height: 1400px !important;
+      height: 100rem!important;
     }
+    
 }
 
 @media (min-width: 992px) {
+    
    
     .contEmpresa{
         margin-top: -3%;
@@ -166,6 +183,15 @@
 }
 
 @media(max-width:991px){
+    .tecnoDiv{
+
+        margin-top: -20%;
+    
+    }
+    .cardMT{
+        margin-top: 7%;
+    }
+ 
     .otrosServices{
         margin-top: -50% !important;
     }
@@ -174,6 +200,7 @@
     }
     .imageFinal{
         height: 20rem !important;
+        background-position: 87%, 1% !important;
     }
     .paragraphSomos{
         width: 100% !important;
@@ -194,9 +221,9 @@
     }
     
     .bannerDivInicio{
-        height: 35rem;
+        height: 40rem;
         background-position: 49% 5%;
-        background-image: url("/assets/images/oneClickRes.jpg");
+        background-image: url("/assets/images/oneClickRes2.jpg");
     }
    
     .footer{
